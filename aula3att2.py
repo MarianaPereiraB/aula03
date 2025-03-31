@@ -1,0 +1,7 @@
+numero1 = float(input("digite o primeiro número:"))
+numero2 = float(input("digite o ssegundo número:"))
+soma = (numero1+numero2)
+subtracao = (numero1-numero2)
+multiplicacao = (numero1*numero2)
+divisao = (numero1/numero2)
+print(f"a soma dos números é {soma}\n a subtração dos números é {subtracao}\n a multiplicação dos números é {multiplicacao}\n e a divisão dos números é {divisao}")
