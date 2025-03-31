@@ -6,4 +6,7 @@ media_aluno= (nota01+nota02+nota03) /3
 if media_aluno >= 7:
     print("aprovado")
 else:
-    print("reprovado")
+ if media_aluno < 4:
+      print(f"aluno reprovado {media_aluno}")
+ else:
+    print(f"aluno em recuperação {media_aluno}")
