@@ -12,6 +12,3 @@ if somah > 12:
     somah=somah - 12
 
 somaM = m1 + m2
-
-
-

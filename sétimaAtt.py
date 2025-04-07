@@ -1,13 +1,13 @@
-tipo = input(" digite G para gasolina: "
-             "digite E para etanol:")
-litros = float(input("quantos litros você quer abastecer?"))
+tipo = input(" digite G para gasolina ou digite E para etanol: ")
+litros = float(input("quantos litros você quer abastecer? "))
 
-gasolina = 5.80
-etanol = 4.90
+gasolina = 5.80 * litros
+etanol = 4.90 * litros
 
-if gasolina == "G":
-    print(f"{gasolina*litros:.2f} é o valor a ser pago")
 
+if tipo == "G" or tipo == "g":
+    print(f"{gasolina} é o valor a ser pago da gasolina")
+elif tipo == "E" or tipo == "e":
+        print(f"{etanol} é o valor a ser pago")
 else:
-    if etanol == "E":
-        print(f"{etanol*litros:.2f} é o valor a ser pago")
+    print("letra inválida")
